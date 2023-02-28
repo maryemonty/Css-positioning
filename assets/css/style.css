@@ -148,11 +148,22 @@ main {
   }
 }
 
-.svg{
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg');
-  background-position: bottom;
-  z-index: -1;
+h1 span{
+  position: relative;
+  display: inline-block;
+}
+
+h1 span::after{
+  content: "";
+  position: absolute;
+  bottom: -0.725rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  height: 1.5rem;
+  background-image: url("../img/underline.svg");
   background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .5;
 }
 
 section {
