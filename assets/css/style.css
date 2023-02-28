@@ -391,9 +391,15 @@ aside div p:last-child {
   text-align: right;
 }
 
+aside div{
+  position: relative;
+}
 #tag{
   position: absolute;
-  right: 63px;
+  top: 4px;
+  right: 4px;
+  font-size: 4rem;
+  opacity: 0.3;
 }
 
 /* FOOTER */
