@@ -150,6 +150,7 @@ main {
 
 .svg{
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg');
+  background-position: bottom;
   z-index: -1;
   background-repeat: no-repeat;
 }
