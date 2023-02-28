@@ -16,52 +16,38 @@ hr {
   display: none;
 } /* rimuove l'elemento */
 
-.icon{
-  padding: 2px;
+.icone{
   position: fixed;
-  right: 3px;
-  background-color: rgba(255, 255, 255, 0.844);
-  border: 2px solid white;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 8px;
-  font-size: 30px;
+  right: -15px;
+  bottom: 0;
   z-index: 3;
 }
-.icon:nth-of-type(1){
-  bottom: 650px;
+
+.icon{
+  display: block;
+  padding: 15px;
+  color: #2d5fbf;
+  font-size: 1.5rem;
+  background-color: rgb(255 255 255 / 0.3);
+  border-radius: 10px;
+  border: 2px solid #fff;
+  margin-block-end: 15px;
+  line-height: 1;
+  backdrop-filter: blur(10px)
 }
-.icon:nth-of-type(2){
-  bottom: 591px;
-}
+
 .icon:nth-of-type(3){
-  bottom: 3px;
   color: violet;
 }
 
-@media screen and (max-width: 700px) {
-  .icon{
-    padding: 2px;
-    position: fixed;
-    right: 3px;
-    background-color: rgba(255, 255, 255, 0.844);
-    border: 2px solid white;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 30px;
+@media screen and (min-width: 700px) {
+  .icone{
+    top: 15px
   }
-  .icon:nth-of-type(1){
-    bottom: 125px;
-  }
-  .icon:nth-of-type(2){
-    bottom: 64px;
-  }
+
   .icon:nth-of-type(3){
-    bottom: 3px;
-    color: violet;
+    position: absolute;
+    bottom: 0;
   }
 }
 
